@@ -1,0 +1,15 @@
+{
+  "name": "kubernetes-workshop",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/cem2ran/kubernetes-workshop",
+  "author": "Cem Turan <cem2ran@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "start": "node -r esm server.js"
+  },
+  "dependencies": {
+    "esm": "^3.2.18",
+    "express": "^4.16.4"
+  }
+}
